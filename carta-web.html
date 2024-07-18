@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amifer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assent/css/styles.css">
+    <link rel="stylesheet" href="./assent/css/musica.css">
+
+    <style>
+        .video-carousel {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .video-carousel video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .video-wrapper {
+            position: relative;
+        }
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+        .play-button:focus {
+            outline: none;
+        }
+        .carousel-item {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="letra titulo a">Feliz Aniversario</h1>
+        <p class="date titulo"><b> 11/08/2023 </b> </p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container">
+                <button id="playButton">Reproducir/Pausar Canción</button>
+                <audio id="audio" src="./assent/audio/"></audio>
+            </div>
+            
+            <div class="card" style="background-image: url('./assent/img/imagen1.JPeG');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen2.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen3.JPeG');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen4.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen5.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen7.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen8.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen9.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen10.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen17.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen12.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen13.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen14.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen15.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen16.jpeg');"></div>
+     
+
+           
+
+           
+        </div>
+        
+        <div class="letter-container mt-5">
+            <h2 class="titulo2">Mi Carta para Ti</h2>
+            <div class="letter-content">
+                <p>Un año, 12 meses, 48 semanas, 365 días, 8.760 horas, 525.600 minutos y 31.536.000 segundos. Parece mucho tiempo y poco a la vez pero esto es todo lo que hemos vivido juntos, por el momento. En este año hemos podido disfrutar de muchas salidas, cenas, circos, películas, abrazos y caricias. También de momentos amargos que nos han hecho conocernos y unirnos más. Estoy segura de que aún nos queda un largo camino para seguir creciendo juntos pero que, por ahora, solo quiero celebrar contigo este aniversario. </p>
+              <p> No quería dejar pasar esta fecha tan especial sin escribirte estas palabras. Quizás ahora sean palabras que lees con ilusión y que, con el tiempo, las valores cada vez más. Quizás llegue un día en el que hayamos discutido y te encuentres con esto. Ese es el día en el que debes releerlo. Cuando creas que todo está perdido, que no podemos entendernos o que estamos más distanciados que nunca, quiero que leas y seas capaz de recordar todo lo que siento por ti.</p>
+
+               <p>Quiero que sepas que siempre voy a estar dispuesta a luchar por lo nuestro,  creo firmemente que no hay problema sin solución y que cuando por ambas partes hay amor, todo se puede. Por mi parte voy a luchar por demostrártelo día a día, respetándote, cuidándote y apoyándote.</p>
+              <p>Me encanta poder decir que te amo y que tengo a la mejor pareja del mundo, demostrándomelo día a día, hora a hora... Desde que te conocí sabía que ibas a marcarme para bien y para mal, que no serías una persona cualquiera que pasa como si nada. Que serías alguien importante que recordaría siempre, el amor de mi vida. </p>
+             <p> Estoy segura de que será el primero de muchos aniversarios y que cada uno será diferente, único… Sabes que me encanta celebrar estas cosas. Me encanta echar la vista atrás y hacer resumen de lo que hemos vivido, de cuánto te he conocido y de la complicidad que tenemos. Ese día te dije “¡Sí!” Sí a quererte. Sí a sumar momentos juntos. Sí a conocerte aún más en profundidad. Sí y mil veces sí. Seguiremos sumando momentos, cumpleaños, eventos ¡pero juntos! Feliz aniversario, mi amor. Que todos los celebremos de una forma tan especial y con tanta ilusión como este primero.</p>
+            </div>
+        </div>
+
+            <!-- Carrusel de videos -->
+        <div class="container mt-5 video-carousel">
+            <h2 class="titulo2 text-center">Mejores Momentos</h2>
+            <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="video-wrapper">
+                            <video id="video1" width="600" height="400" controls>
+                                <source src="./assent/videos/video1.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video1')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video2" width="600" height="400" controls>
+                                <source src="./assent/videos/video2.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video2')">&#9658;</button>
+                        </div>
+                    </div>
+        
+                </div>
+                <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+       
+        
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./assent/js/script.js"></script>
+    <script src="./assent/js/musica.js"></script>
+    <script>
+        function playPause(videoId) {
+            var video = document.getElementById(videoId);
+            var button = video.nextElementSibling;
+            if (video.paused) {
+                video.play();
+                button.style.display = 'none';
+            } else {
+                video.pause();
+                button.style.display = 'block';
+            }
+
+            video.onended = function() {
+                button.style.display = 'block';
+            };
+        }
+    </script>
+</body>
+</html>
