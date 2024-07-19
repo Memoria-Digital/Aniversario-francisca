@@ -58,7 +58,7 @@ document.addEventListener("click", (e) => {
 
 function validatePassword() {
     var passwordInput = document.getElementById("password").value;
-    if (passwordInput !== "220722") { // Contraseña incorrecta
+    if (passwordInput !== "11082023") { // Contraseña incorrecta
         var errorMessage = document.getElementById("errorMessage");
         errorMessage.textContent = "La contraseña es incorrecta.";
         return false; // Evita el envío del formulario si la contraseña es incorrecta
