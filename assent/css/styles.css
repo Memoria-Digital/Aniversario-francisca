@@ -4,15 +4,11 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondo-disney.jpg'); /* Ruta de la imagen de fondo */
-    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
-    background-position: center center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen */
-    background-attachment: fixed;
-}
+    background-image: url('../img/descarga\ \(3\).jfif'); /* Ruta de la imagen de fondo #0000CD; */
+  
 
 header {
-    background-color: #021b49;
+    background-color: #1313bb;
     text-align: center;
     padding: 1em;
 }
